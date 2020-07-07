@@ -1,0 +1,14 @@
+Class = Chair
+
+Attributes
+is_chair_dirty (boolean)
+chair_occupied (boolean)
+is_pushed_in (boolean)
+chair_name (string)
+
+Methods
+clean_chair (changes is_chair_dirty to false)
+pull_out_chair (changes is_pushed_in to false)
+sit_in_chair (checks status of chair_occupied and is_pushed_in, if both are false, changes chair_occupied to true)
+push_in_chair (checks status of is_pushed_in and chair_occupied, if false on both, changes is_pushed_in to true)
+assign_chair (changes chair_name)
