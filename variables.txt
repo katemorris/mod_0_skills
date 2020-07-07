@@ -1,0 +1,9 @@
+food = "cottage cheese"
+is_delicious = true
+food = "peanut butter and jelly sandwich"
+num2 = 3
+num7 = 12
+quotient = num7 / num2
+songs = ["Death in a Garden", "Salute", "New Rules", "Confident", "Pound the Alarm"]
+songs.shift
+food.size
