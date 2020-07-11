@@ -2,8 +2,8 @@ Object = 4 top table
 
 Attributes
 number_of_legs = 4
-table_shape = "square"
-table_seats = 4
+shape = "square"
+seats = 4
 max_chairs = 8
 can_be_combined = true
 current_chairs = 3
@@ -11,5 +11,5 @@ current_chairs = 3
 Methods
 add_chair: Brings current_chairs = 4
 remove_chair: Takes current_chairs = 3
-combine_table: keeps current_chairs the same as current_chairs < table_seats
+combine_table: keeps current_chairs the same as current_chairs < seats
 knee_check = "You're good!"

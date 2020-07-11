@@ -2,8 +2,8 @@ Class = Table
 
 Attributes
 number_of_legs (integer)
-table_shape (string)
-table_seats (integer)
+shape (string)
+seats (integer)
 max_chairs (integer)
 can_be_combined (boolean)
 current_chairs (integer)
@@ -11,5 +11,5 @@ current_chairs (integer)
 Methods
 add_chair (adds one to current_chairs, but throws an error if that current_chairs > max_chairs)
 remove_chair (subtracts one from current_chairs, until it hits zero)
-combine_table (checks if can_be_combined is true, and if so, removes one from current_chairs if current_chairs >= table_seats)
+combine (checks if can_be_combined is true, and if so, removes one from current_chairs if current_chairs >= seats)
 knee_check (compares number_of_legs to determine spaces, compares to current_chairs to see if the next chair is going to hurt someone's knee, returns a value based on that.)

@@ -1,14 +1,14 @@
 Chair = Askew from party
 
 Attributes
-is_chair_dirty = true
-chair_occupied = false
+is_dirty = true
+is_occupied = false
 is_pushed_in = false
-chair_name = ""
+name = ""
 
 Methods
-clean_chair: is_chair_dirty = false
-pull_out_chair: no change
-sit_in_chair: chair_occupied = true
-push_in_chair: no changes (someone is in the chair!)
-assign_chair: chair_name = "Kate"
+clean: is_dirty = false
+pull_out: no change
+sit_in: is_occupied = true
+push_in: no changes (someone is in the chair!)
+assign: name = "Kate"
